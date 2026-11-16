@@ -1,0 +1,6 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": { "types": [] },
+  "include": ["../../src", "./stubs.d.ts"],
+  "exclude": ["../../src/vite-env.d.ts"]
+}
